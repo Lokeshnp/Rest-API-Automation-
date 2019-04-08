@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Reseller Profile Test Automation Test Suite">
+
+    <listeners>
+        <listener class-name="com.meesho.price.report.ExtentReportListener" />
+    </listeners>
+
+
+    <test name="Reseller Profile Test">
+        <classes>
+            <class name="com.meesho.price"></class>
+        </classes>
+    </test>
+</suite>
